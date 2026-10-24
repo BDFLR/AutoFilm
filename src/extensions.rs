@@ -1,6 +1,6 @@
 // AutoFilm 需要识别的视频文件后缀；视频会被转换为同名 .strm 文件。
 pub const VIDEO_EXTS: &[&str] = &[
-    ".mp4", ".mkv", ".flv", ".avi", ".wmv", ".ts", ".rmvb", ".webm", ".mpg", ".m2ts",
+    ".mp4", ".mkv", ".flv", ".avi", ".wmv", ".ts", ".rmvb", ".webm", ".mpg", ".m2ts", ".mov",
 ];
 
 // 可选下载的伴生文件类型，行为与 Python 版本保持一致。
